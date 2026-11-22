@@ -1,0 +1,36 @@
+FULL DATAFRAME
+   well_id       date     status  oil_bpd  water_bpd
+0  WELL-01 2026-11-01  PRODUCING   1250.0      350.0
+1  WELL-02 2026-11-01  PRODUCING    980.0      420.0
+2  WELL-03 2026-11-01    SHUT-IN      0.0        0.0
+3  WELL-01 2026-11-02  PRODUCING      NaN      375.0
+4  WELL-04 2026-11-02  PRODUCING   1430.0      510.0
+5  WELL-02 2026-11-02  PRODUCING   1025.0      390.0
+
+DataFrame shape: (6, 5)
+
+Column data types:
+well_id              object
+date         datetime64[ns]
+status               object
+oil_bpd             float64
+water_bpd           float64
+dtype: object
+
+PRODUCING READINGS
+   well_id       date     status  oil_bpd  water_bpd
+0  WELL-01 2026-11-01  PRODUCING   1250.0      350.0
+1  WELL-02 2026-11-01  PRODUCING    980.0      420.0
+3  WELL-01 2026-11-02  PRODUCING      NaN      375.0
+4  WELL-04 2026-11-02  PRODUCING   1430.0      510.0
+5  WELL-02 2026-11-02  PRODUCING   1025.0      390.0
+
+PRODUCING READINGS WITH TOTAL LIQUID (bpd)
+   well_id       date     status  oil_bpd  water_bpd  total_liquid_bpd
+0  WELL-01 2026-11-01  PRODUCING   1250.0      350.0            1600.0
+1  WELL-02 2026-11-01  PRODUCING    980.0      420.0            1400.0
+3  WELL-01 2026-11-02  PRODUCING      NaN      375.0               NaN
+4  WELL-04 2026-11-02  PRODUCING   1430.0      510.0            1940.0
+5  WELL-02 2026-11-02  PRODUCING   1025.0      390.0            1415.0
+
+Missing oil reading count: 1
