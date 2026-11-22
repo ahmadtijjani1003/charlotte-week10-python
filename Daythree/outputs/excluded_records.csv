@@ -1,0 +1,5 @@
+record_id,date,field,well_id,status,oil_bbl,water_bbl,pressure_psi,exclusion_reason
+R002,2026-10-02,North,WELL-A1,ACTIVE,178.0,,2474,Missing water reading
+R010,2026-10-04,North,WELL-A2,SHUT_IN,151.0,73.0,2348,Not ACTIVE
+R015,2026-10-03,South,WELL-B1,ACTIVE,,36.0,2816,Missing oil reading
+R023,2026-10-05,South,WELL-B2,SHUT_IN,115.0,120.0,2180,Not ACTIVE

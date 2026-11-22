@@ -1,0 +1,5 @@
+field,well_id,records,oil_total_bbl,water_total_bbl,liquid_total_bbl,avg_pressure_psi,avg_water_cut_pct
+North,WELL-A1,5,926.0,263.0,1189.0,2495.6,22.09785109979655
+North,WELL-A2,5,743.0,359.0,1102.0,2340.8,32.57521265833444
+South,WELL-B1,5,1122.0,186.0,1308.0,2823.2,14.18526781729327
+South,WELL-B2,5,539.0,582.0,1121.0,2158.4,51.95677181411436
