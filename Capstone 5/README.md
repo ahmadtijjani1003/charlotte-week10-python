@@ -15,4 +15,4 @@ Dataset: synthetic training data only; no real field readings.
 
 ## Pull Request
 
-[View my Week 10 Class 5 Capstone Pull Request](https://github.com/Ismailsisi/Charlotte-Week10-python/pull/1)
+[View my Week 10 Class 5 Capstone Pull Request]https://github.com/ahmadtijjani1003/charlotte-week10-python/pulls 
